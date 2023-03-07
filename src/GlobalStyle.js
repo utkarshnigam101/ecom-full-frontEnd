@@ -54,8 +54,8 @@ h1 {
 }
 
  h2 {
-   color: ${({ theme }) => theme.colors.heading};
-   font-size: 4.4rem;
+  color: ${({ theme }) => theme.colors.heading};
+   font-size: 4.4rem; 
    font-weight: 300;
    white-space: normal;
   
@@ -157,8 +157,8 @@ input, textarea{
     cursor: pointer;
     }
 
-@media (max-width: ${({ theme }) => theme.media.tab}) {
-    .container {
+@media (max-width: ${({ theme }) => theme.media.tab}) {    
+    .container {  
     max-width: 130rem;
     padding: 0 3.2rem;
   }
